@@ -13,6 +13,8 @@
 		F763C4AD29851C200093842B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F763C4AC29851C200093842B /* Preview Assets.xcassets */; };
 		F763C4AF29851C200093842B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763C4AE29851C200093842B /* Persistence.swift */; };
 		F763C4B229851C200093842B /* Reminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F763C4B029851C200093842B /* Reminder.xcdatamodeld */; };
+		F763C4B929851CDA0093842B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763C4B829851CDA0093842B /* HomeView.swift */; };
+		F763C4BB29853AE50093842B /* GroupCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F763C4BA29853AE50093842B /* GroupCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F763C4AC29851C200093842B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F763C4AE29851C200093842B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F763C4B129851C200093842B /* Reminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reminder.xcdatamodel; sourceTree = "<group>"; };
+		F763C4B829851CDA0093842B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F763C4BA29853AE50093842B /* GroupCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				F763C4A529851C1D0093842B /* ReminderApp.swift */,
+				F763C4B829851CDA0093842B /* HomeView.swift */,
+				F763C4BA29853AE50093842B /* GroupCollectionView.swift */,
 				F763C4A729851C1D0093842B /* ContentView.swift */,
 				F763C4A929851C200093842B /* Assets.xcassets */,
 				F763C4AE29851C200093842B /* Persistence.swift */,
@@ -145,7 +151,9 @@
 			files = (
 				F763C4AF29851C200093842B /* Persistence.swift in Sources */,
 				F763C4A829851C1D0093842B /* ContentView.swift in Sources */,
+				F763C4BB29853AE50093842B /* GroupCollectionView.swift in Sources */,
 				F763C4A629851C1D0093842B /* ReminderApp.swift in Sources */,
+				F763C4B929851CDA0093842B /* HomeView.swift in Sources */,
 				F763C4B229851C200093842B /* Reminder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

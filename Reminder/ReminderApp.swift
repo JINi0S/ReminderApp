@@ -15,7 +15,7 @@ struct ReminderApp: App {
         WindowGroup {
             HomeView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                
+            //Sample()
         }
     }
 }

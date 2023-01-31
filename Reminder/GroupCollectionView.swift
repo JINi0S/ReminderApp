@@ -25,17 +25,17 @@ struct GroupCollectionView: View {
                     .frame(width: 30.0, height: 30.0)
                 Spacer()
                 Text("\(count)")
-                    .font(.system(size: 20, weight: .bold))
+                    .font(.system(size: 24, weight: .bold))
             }
-            
-            Text(title).foregroundColor(.gray)
-                .font(.system(size: 12, weight: .regular))
+            Text(title).foregroundColor(.secondary)
+                .font(.system(size: 14, weight: .medium))
         }
         .padding()
-        .frame(width: 180.0, height: 76.0)
+        .frame(width: 180.0, height: 70)
         .background(.white)
         .cornerRadius(16)
     }
+
 }
 
 struct GroupCollectionView_Previews: PreviewProvider {
